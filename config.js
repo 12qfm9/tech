@@ -39,9 +39,9 @@ module.exports = {
   caption:process.env.CAPTION || "©𝑨𝑵𝑺𝑯𝑼𝑼" , // ```『 𝙥𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙒𝘼𝙎𝙄-𝙏𝙀𝘾𝙃 』```", //*『𝙎𝙐𝘽𝘾𝙍𝙄𝘽𝙀 𝙒𝘼𝙎𝙄𝙏𝙀𝘾𝙃 𝙊𝙉 𝙔𝙏』*\n youtube.com/@wasitech1"),
 
  
-  author: process.env.PACK_AUTHER || "𝙒𝘼𝙎𝙄",
+  author: process.env.PACK_AUTHER || "𝑨𝑵𝑺𝑯𝑼𝑼",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "𝑨𝑵𝑺𝑯𝑼𝑼",
+  botname : process.env.BOT_NAME  || "乛 Dεvιℓ Gιιrl 🖤 ͢›̇̇›̇̇",
   ownername:process.env.OWNER_NAME|| "𝑨𝑵𝑺𝑯𝑼𝑼",
 
 
