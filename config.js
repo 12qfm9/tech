@@ -5,11 +5,11 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.devs = "923135673658"
+global.devs = "923432401173"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="samsamsun789@gmail.com"
-global.location="Lahore,Punjab,Pakistan"
+global.location="karachi,sindh,Pakistan"
 global.mongodb= process.env.MONGODB_URI || ""
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -19,13 +19,13 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/Itxxwasi/WASI-BOT";
 global.gurl = process.env.GURL  || "https://chat.whatsapp.com/FsmyfqfVlgJ6cwGY1Yeseq";
 global.website =process.env.GURL|| "tohttps://chat.whatsapp.com/FsmyfqfVlgJ6cwGY1Yeseq" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "" ; /https://i.imgur.com/8aW7mR0.jpeg/ SET LOGO FOR IMAGE 
 
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923135673658";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923135673658";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923262350662";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923262350662";
 
 module.exports = {
 
